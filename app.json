@@ -1,0 +1,53 @@
+{
+  "name": "TG-GDRIVEBOT",
+  "description": "A TELEGRAM BOT TO UPLOAD FILES AND LINKS TO THE USERS GOOGLE DRIVE ACCOUNT OR TEAM DRIVE THAT IS DEPLOYABLE VIA HEROKU",
+  "repository": "https://github.com/thesilentdevka/TG-GDRIVEBOT",
+  "logo": "https://telegra.ph//file/314fe0316b58a94c32857.jpg",
+  "keywords": ["Telegram", "Google Drive", "uploader"],
+  "env": {
+    "ENV": {
+      "description": "Set it to anything to enable configuration by environment variables.",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Get it from @BotFather"
+    },
+    "APP_ID": {
+      "description": "Your API_ID, Get it from https://my.telegram.org/apps"
+    },
+    "API_HASH": {
+      "description": "Your API_HASH, Get it from https://my.telegram.org/apps"
+    },
+    "SUDO_USERS": {
+      "description": "List of sudo users ids, seperated by space.",
+      "value": "1867442972 "
+    },
+    "SUPPORT_CHAT_LINK": {
+      "description": "Support Chat link in valid url format.",
+      "value": "https://t.me/thesilentninja"
+    },
+    "DOWNLOAD_DIRECTORY": {
+      "description": "Custom path for downloads. Must end with a forward slash.",
+      "value": "./downloads/"
+    },
+    "G_DRIVE_CLIENT_ID": {
+      "description": "Google Drive Client ID from Google Cloud Platform",
+      "value": "318797214018-33gq75tkuofqtvhu45hnabf46p8tn81v.apps.googleusercontent.com"
+    },
+    "G_DRIVE_CLIENT_SECRET": {
+      "description": "Google Drive Client Secret from Google Cloud Platform",
+      "value": "09NTp8AsFbRYkH4rz4SxyxyU"
+    }
+  },
+   "addons": [{
+    "plan": "heroku-postgresql"
+  }],
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
