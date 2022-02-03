@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = "5183136526:AAF17EGJ6aQA0l1BpWgDGtjRY2iaUan7t40"
-    APP_ID = "4544663"
-    API_HASH = "7729e365646253e33860dc3c36c3c2d9"
-    DATABASE_URL = "postgres://tlekltch:T4ciSq9oooiYs5NwbiujHdwjCccUabwW@topsy.db.elephantsql.com/tlekltch"
+    BOT_TOKEN = ""
+    APP_ID = ""
+    API_HASH = ""
+    DATABASE_URL = ""
     SUDO_USERS = "1867442972" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = "478364693586-74rg9ogllgj9pv07ujuptga806fe2h4k.apps.googleusercontent.com"
-    G_DRIVE_CLIENT_SECRET = "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"
-    SUPPORT_CHAT_LINK = "https://t.me/thesilentninja"
+    G_DRIVE_CLIENT_ID = ""
+    G_DRIVE_CLIENT_SECRET = "
+    SUPPORT_CHAT_LINK = ""
 
 
 class BotCommands:
