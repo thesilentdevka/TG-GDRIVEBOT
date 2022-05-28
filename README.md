@@ -3,15 +3,21 @@
 - Find it on Telegram as [Google Drive Uploader](https://t.me/tmzgdrivev2bot)
 
 ## Features
-- [X] Telegram files support
-- [X] Direct Links support
-- [X] Custom Upload Folder
-- [X] TeamDrive Support
-- [X] Clone/Copy Google Drive Files
-- [X] Delete Google Drive Files
-- [X] Empty Google Drive trash
-- [X] youtube-dl support
+- [X] Telegram files support.
+- [X] Direct Links support.
+- [X] Custom Upload Folder.
+- [X] TeamDrive Support.
+- [X] Clone/Copy Google Drive Files.
+- [X] Delete Google Drive Files.
+- [X] Empty Google Drive trash.
+- [X] YouTube-DL Support.
 - [X] Docker Supported
+- [X] FB-dl Supported
+- [X] Anonfiles Supported
+- [X] LK21 Supported
+- [X] Solidfiles Supported
+- [X] Mediafire Supported
+- [X] Zippy Supported...
 
 
 ### How To Deploy Video Tutorial:
