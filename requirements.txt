@@ -1,4 +1,5 @@
 wget
+lk21
 asyncio
 pyrogram==1.0.1
 tgcrypto
