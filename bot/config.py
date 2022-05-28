@@ -3,7 +3,7 @@ class config:
     APP_ID = ""
     API_HASH = ""
     DATABASE_URL = ""
-    SUDO_USERS = "1867442972" # Sepearted by space.
+    SUDO_USERS = "" # Seperated by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = ""
     G_DRIVE_CLIENT_SECRET = ""
@@ -18,10 +18,10 @@ class BotCommands:
   Clone = ['copy', 'clone']
   Delete = ['delete', 'del']
   EmptyTrash = ['emptyTrash']
-  YtDl = ['ytdl']
+  YtDl = ['ytdl', 'youtube']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files. I was made by @thesilentninja.__\n__If you want to learn more send a  /help.__"
+    START_MSG = "**[Hi there] {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
 
     HELP_MSG = [
         ".",
@@ -39,7 +39,7 @@ class Messages:
         
         # Dont remove this ↓ if you respect developer.
          
-        "**CONTACT CREATOR FOR SUPPORT @thesilentninja**"
+        "**Code by KJEYMAX(https://github.com/kjeymax), Updated by thesilentdevka(https://github.com/thesilentdevka/TG-GDRIVEBOT)**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
@@ -48,13 +48,13 @@ class Messages:
     
     INVALID_GDRIVE_URL = "❗ **Invalid Google Drive URL**\nMake sure the Google Drive URL is in valid format."
     
-    COPIED_SUCCESSFULLY = "✅ **Copied successfully. Bot by @thesilentninja**\n[{}]({}) __({})__"
+    COPIED_SUCCESSFULLY = "✅ **Copied successfully.**\n[{}]({}) __({})__"
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
     DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}```"
     
-    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully. Bot by @thesilentninja**\n[{}]({}) __({})__"
+    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully.**\n[{}]({}) __({})__"
     
     DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
     
@@ -72,7 +72,7 @@ class Messages:
     
     DOWNLOAD_TG_FILE = "📥 **Downloading File...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
-    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully. Bot by @thesilentninja**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
+    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
     
     PARENT_CLEAR_SUCCESS = f'🆔🚮 **Custom Folder ID Cleared Successfuly.**\n__Use__ ```/{BotCommands.SetFolder[0]} (Folder Link)``` __to set it back__.'
     
@@ -88,9 +88,9 @@ class Messages:
     
     INSUFFICIENT_PERMISSONS = "❗ **You have insufficient permissions for this file.**\n__File id - {}__"
     
-    DELETED_SUCCESSFULLY = "🗑️✅ **File Deleted Successfully. Bot by @thesilentninja**\n__File deleted permanently !\nFile id - {}__"
+    DELETED_SUCCESSFULLY = "🗑️✅ **File Deleted Successfully.**\n__File deleted permanently !\nFile id - {}__"
     
-    WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG**\n__Please try again later or contact @thesilentninja.__"
+    WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG**\n__Please try again later.__"
     
     EMPTY_TRASH = "🗑️🚮**Trash Emptied Successfully !**"
     
