@@ -91,7 +91,7 @@ python3 -m bot
 - [Dan](https://github.com/delivrance) for creating [PyroGram](https://pyrogram.org)
 - [Spechide](https://github.com/Spechide) for [gDriveDB.py](./bot/helpers/sql_helper/gDriveDB.py)
 - [Shivam Jha](https://github.com/lzzy12) for [Clone Feature](./bot/helpers/gdrive_utils/gDrive.py) from [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot)
-- [KJEYMAX](https://github.com/kjeymax) for THE CODE
+- [KJEYMAX](https://github.com/kjeymax)
 ## Copyright & License
-- Copyright (©) 2021 by [Adnan Ahmad](https://github.com/viperadnan-git)
+- Copyright (©) 2021 by [Devakrishna Prasobh](https://github.com/thesilentdevka)
 - Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](./LICENSE)
